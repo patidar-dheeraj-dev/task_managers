@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+.active {
+    text-decoration: underline;
+}
+.nav-btn{
+    text-decoration: none;
+}
