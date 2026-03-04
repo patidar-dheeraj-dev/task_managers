@@ -1,6 +1,7 @@
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { store } from "./redux/store";
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 import Nav from './Component/Nav';
 import Home from './Component/Home';
@@ -38,6 +39,7 @@ function App() {
           <Route path='status' element={<Status />} />
         </Route>
       </Routes>
+      <SpeedInsights />
     </Provider>
   );
 }
